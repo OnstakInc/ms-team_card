@@ -24,6 +24,7 @@ To install the Python Weather App, follow these steps:
     > pip install -r requirements.txt
 3. Copy the team-id and channel id from teams channel in microsoft teams and paste into Environment.py file as `team_id` and `cilent_id` 
 4. Copy the Webhook_Url in teams channel and paste in Environment.py as `webhook_url`
+    
 5. Add sender mail using microsoft graph api.
    1. login to microsoft azure -> `https://portal.azure.com/`
    2. Go to **App registrations** --> **New_registration**,Fill the details and copy the `Tenant_id` and `Client_id` and paste in Environment.py file in code.
